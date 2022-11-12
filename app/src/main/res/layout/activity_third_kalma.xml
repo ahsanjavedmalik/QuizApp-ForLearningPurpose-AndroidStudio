@@ -52,4 +52,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="52dp"
+        android:background="#A4020202"
+        android:text="اللہ کی ذات پاک ہے اور سب تعریفیں اللہ کیلئے ہیں اور اللہ کے سوا کوئی معبود نہیں اور اللہ بہت بڑا ہے۔ گناہوں سے بچنے کی طاقت اور نیک کام کرنے کی توفیق نہیں مگر اسی کی جانب سے جو بہت بلند اور عظمت والا ہے۔"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
