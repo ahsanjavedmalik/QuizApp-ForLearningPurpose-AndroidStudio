@@ -13,6 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="54dp"
+        android:background="@drawable/btndesign3"
         android:hapticFeedbackEnabled="true"
         android:text="LEARN"
         android:textStyle="bold"
