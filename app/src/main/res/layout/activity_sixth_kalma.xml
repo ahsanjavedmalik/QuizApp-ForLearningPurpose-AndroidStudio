@@ -54,4 +54,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="20dp"
+        android:background="#A4020202"
+        android:text="آے اللہ میں پناہ مانگتا ہو اس بات سے کہ میں کسی شے کو تیرا شریک بناو جان بوجھ کر،اور بخشش مانگتاہو میں تم سے اس کام کی جو میں جانتا نہیں ہواور میں نے اس سے توبہ کیا اور بیزار ہوا کفر سے، شرک سے، اور جھوٹ سے، اور غیبت سے، اور بدعت سے ، اور چغلی سے ، اور بے حیائی سے، اور بہتان سے اور تمام گناہو سے اور میں اسلام لایا اور میں کہتا ہوکہ اللہ کے سوا کوئی معبود نہیں اور محمد ﷺ اللہ کے رسول ہیں"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
