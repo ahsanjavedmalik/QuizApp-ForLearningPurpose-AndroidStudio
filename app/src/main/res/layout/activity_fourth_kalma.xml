@@ -54,4 +54,22 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="345dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="20dp"
+        android:background="#A4020202"
+        android:text="اللہ کے سوا کوئی معبود نہیں وہ اکیلا ہے اسکا کوئی شریک نہیں، اسی کی بادشاہی ہے اور اس کے لیے تمام تعریفے ہے۔ وہ زندہ کرتا ہے اور وہ مرواتا ہے۔ اور وہ ہمیشہ کیلئے زندہ ہے وہ مرے گا نہیں عظمت اور بزرگی والا ہے ، بہتری اسی کے ہاتھ میں ہے اور ہر چیز پر قادر ہے۔"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
