@@ -39,4 +39,21 @@
         app:srcCompat="@drawable/fifthkalma" />
 
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="358dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="#A8000000"
+        android:text="Forgive me, O my God, for every sin that I have committed intentionally or by mistake, openly or secretly, and I repent to Him for the sin that I know and for the sin that I know. Nay, verily Thou art the Knower of the faults and the Concealer of the faults, and the Forgiver of sins, and the power to avoid sins and to do good is from Allah. Who is glorious and majestic."
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
