@@ -56,4 +56,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="20dp"
+        android:background="#A4020202"
+        android:text="معافی مانگتا ہو اے میرے اللہ ہر گناہ سے جو میں نے جان بوجھ کر کی ہے یا بھول کر کی ہے ،در پردہ یا کھلم کھلا اور میں توبہ کرتا ہو اسکے حضور میں اس گناہ سے جو مجھے معلوم ہے اور اس گناہ سے جو مجھے معلوم نہیں،بے شک تو عیبوں کو جاننے والے اور عیبوں کو چھپانے والا ہے، اور گناہوں سے بخشنے والا ہے اور گناہوں سے بچنے کی طاقت اور نیک کام کرنے کی طاقت اللہ ہی کی طرف سے ہے۔ جو عالی شان اور عظمت والا ہے۔"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
