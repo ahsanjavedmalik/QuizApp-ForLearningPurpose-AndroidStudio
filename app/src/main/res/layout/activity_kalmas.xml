@@ -7,6 +7,20 @@
     android:background="@drawable/bg3"
     tools:context=".Six_Kalmas">
 
+    <Button
+        android:id="@+id/kalma4btn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/btndesign3"
+        android:textColor="@color/white"        android:hapticFeedbackEnabled="true"
+        android:text="4th Kalma"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/kalma6btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kalma3btn"
+        app:layout_constraintTop_toBottomOf="@+id/kalma2btn" />
 
     <Button
         android:id="@+id/kalma5btn"
@@ -16,7 +30,8 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="6dp"
         android:background="@drawable/btndesign3"
-        android:textColor="@color/white"        android:hapticFeedbackEnabled="true"
+        android:textColor="@color/white"
+        android:hapticFeedbackEnabled="true"
         android:text="5th Kalma"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +46,8 @@
         android:layout_marginEnd="41dp"
         android:layout_marginBottom="6dp"
         android:background="@drawable/btndesign3"
-        android:textColor="@color/white"        android:hapticFeedbackEnabled="true"
+        android:textColor="@color/white"
+        android:hapticFeedbackEnabled="true"
         android:text="6th Kalma"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
