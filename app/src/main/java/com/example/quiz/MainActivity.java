@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
         learn = findViewById(R.id.learnbtn);
         quiz = findViewById(R.id.quizbtn);
 
+        repo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                torepo();
+            }
+        });
+
+
+
 
 }
     private void toquiz()
