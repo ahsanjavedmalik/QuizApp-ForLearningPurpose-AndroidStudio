@@ -59,4 +59,18 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
 
+
+        opt4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(quesNo == 2 || quesNo == 4){
+                    Toast.makeText(QuizActivity.this, "CORRECT! Score= +10", Toast.LENGTH_SHORT).show();
+                    score = score+10;
+
+                }
+                quesNo = quesNo+1;
+                NextQuestion();
+            }
+        });
+
 }
