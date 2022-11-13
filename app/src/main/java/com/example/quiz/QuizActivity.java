@@ -47,4 +47,16 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
 
+        opt3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(quesNo == 5){
+                    Toast.makeText(QuizActivity.this, "CORRECT! Score= +10", Toast.LENGTH_SHORT).show();
+                    score = score+10;
+                }
+                quesNo = quesNo+1;
+                NextQuestion();
+            }
+        });
+
 }
