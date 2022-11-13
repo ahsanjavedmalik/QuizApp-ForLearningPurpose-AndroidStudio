@@ -8,6 +8,27 @@ import android.widget.Button;
 public class Six_Kalmas extends  AppCompatActivity{
     Button first,second,third,fourth,fifth,sixth;
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_six_kalmas);
+
+        first = findViewById(R.id.kalma1btn);
+        second = findViewById(R.id.kalma2btn);
+        third = findViewById(R.id.kalma3btn);
+        fourth = findViewById(R.id.kalma4btn);
+        fifth = findViewById(R.id.kalma5btn);
+        sixth = findViewById(R.id.kalma6btn);
+
+        first.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeActivity1();
+            }
+        });
+
+
+    }
 
 
     private void changeActivity1()
