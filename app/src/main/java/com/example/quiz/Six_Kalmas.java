@@ -11,7 +11,7 @@ public class Six_Kalmas extends  AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_six_kalmas);
+        setContentView(R.layout.activity_kalmas);
 
         first = findViewById(R.id.kalma1btn);
         second = findViewById(R.id.kalma2btn);
