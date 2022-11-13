@@ -35,4 +35,9 @@ public class Six_Kalmas extends  AppCompatActivity{
         Intent intent = new Intent(this, Fifth_Kalma.class);
         startActivity(intent);
     }
+    private void changeActivity6()
+    {
+        Intent intent = new Intent(this, Sixth_Kalma.class);
+        startActivity(intent);
+    }
 }
