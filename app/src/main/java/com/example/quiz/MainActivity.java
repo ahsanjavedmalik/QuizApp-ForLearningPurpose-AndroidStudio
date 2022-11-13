@@ -23,42 +23,11 @@ public class MainActivity extends AppCompatActivity {
         learn = findViewById(R.id.learnbtn);
         quiz = findViewById(R.id.quizbtn);
 
-        repo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                torepo();
-            }
-        });
 
-        learn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toLearn();
-            }
-        });
-
-        quiz.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toquiz();
-            }
-        });
-    }
-    private void toLearn()
-    {
-        Intent intent = new Intent(this,Six_Kalmas.class);
-        startActivity(intent);
-    }
-
-    private void torepo()
-    {
-        startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/Hanzala-Iqbal/KIDS-SIX-KALMA-APP-BSEF19M049/tree/master")));
-    }
-
+}
     private void toquiz()
     {
         Intent intent = new Intent(this,QuizActivity.class);
         startActivity(intent);
     }
-
 }
