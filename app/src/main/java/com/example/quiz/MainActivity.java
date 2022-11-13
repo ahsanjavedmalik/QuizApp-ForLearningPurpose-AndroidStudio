@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/Hanzala-Iqbal/KIDS-SIX-KALMA-APP-BSEF19M049/tree/master")));
     }
+    private void toLearn()
+    {
+        Intent intent = new Intent(this,Six_Kalmas.class);
+        startActivity(intent);
+    }
 }
