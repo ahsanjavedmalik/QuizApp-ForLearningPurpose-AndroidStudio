@@ -15,4 +15,9 @@ public class Six_Kalmas extends  AppCompatActivity{
         Intent intent = new Intent(this,First_Kalma.class);
         startActivity(intent);
     }
+    private void changeActivity2()
+    {
+        Intent intent = new Intent(this,Second_Kalma.class);
+        startActivity(intent);
+    }
 }
