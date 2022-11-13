@@ -1,4 +1,14 @@
 package com.example.quiz;
 
-public class Second_Kalma {
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class Second_Kalma extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_second_kalma);
+    }
 }
