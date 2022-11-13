@@ -7,7 +7,23 @@
     android:background="@drawable/bg3"
     tools:context=".Six_Kalmas">
 
-
+    <Button
+        android:id="@+id/kalma1btn"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="14dp"
+        android:hapticFeedbackEnabled="true"
+        android:text="1st Kalma"
+        android:background="@drawable/btndesign3"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/kalma3btn"
+        app:layout_constraintEnd_toStartOf="@+id/kalma2btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/kalma2btn"
