@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,QuizActivity.class);
         startActivity(intent);
     }
+    private void torepo()
+    {
+        startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/Hanzala-Iqbal/KIDS-SIX-KALMA-APP-BSEF19M049/tree/master")));
+    }
 }
