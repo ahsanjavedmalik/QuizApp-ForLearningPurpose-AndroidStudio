@@ -26,7 +26,13 @@ public class Six_Kalmas extends  AppCompatActivity{
                 changeActivity1();
             }
         });
+        second.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                changeActivity2();
+            }
 
+        });
 
     }
 
